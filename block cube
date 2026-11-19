@@ -1,0 +1,473 @@
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: radial-gradient(circle at top center, #162452 0%, var(--bg-deep) 60%);
+      color: var(--text-primary);
+      line-height: 1.7;
+      min-height: 100vh;
+      padding: 28px 16px 56px;
+    }
+
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+    }
+
+    .hero {
+      background: linear-gradient(145deg, rgba(21, 35, 73, 0.96), rgba(11, 19, 43, 0.96));
+      border: 1px solid var(--border-accent);
+      border-radius: 22px;
+      padding: 32px 28px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.42);
+      margin-bottom: 24px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 5px 12px;
+      border-radius: 999px;
+      background: rgba(56, 189, 248, 0.14);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      color: var(--cyan);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+
+    h1 {
+      font-size: clamp(1.75rem, 4vw, 2.35rem);
+      font-weight: 800;
+      line-height: 1.2;
+      color: var(--gold-soft);
+      margin-bottom: 10px;
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 20px;
+      color: var(--text-muted);
+      font-size: 0.92rem;
+      margin-bottom: 18px;
+    }
+
+    .hero-meta strong {
+      color: var(--text-primary);
+    }
+
+    .hero-intro {
+      color: var(--text-secondary);
+      font-size: 0.98rem;
+    }
+
+    .highlights {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+      gap: 12px;
+      margin-top: 22px;
+    }
+
+    .highlight-card {
+      background: rgba(7, 13, 31, 0.58);
+      border: 1px solid var(--border-subtle);
+      border-radius: 14px;
+      padding: 14px;
+    }
+
+    .highlight-ti<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Official Privacy Policy for Block Blast Cube by VALGARDO. Learn how gameplay progress, permissions, and Google AdMob advertising are handled." />
+  <meta name="theme-color" content="#0A1024" />
+  <title>Privacy Policy — Block Blast Cube</title>
+  <style>
+    :root {
+      --bg-deep: #070d1f;
+      --bg-surface: #0f1936;
+      --bg-card: #152349;
+      --border-subtle: rgba(148, 163, 184, 0.22);
+      --border-accent: rgba(250, 204, 21, 0.38);
+      --text-primary: #f8fafc;
+      --text-secondary: #cbd5e1;
+      --text-muted: #94a3b8;
+      --gold: #facc15;
+      --gold-soft: #fde68a;
+      --cyan: #38bdf8;
+      --green: #4ade80;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+tle {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--gold);
+      margin-bottom: 4px;
+    }
+
+    .highlight-desc {
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+      line-height: 1.45;
+    }
+
+    .toc {
+      background: rgba(15, 25, 54, 0.88);
+      border: 1px solid var(--border-subtle);
+      border-radius: 16px;
+      padding: 18px 22px;
+      margin-bottom: 24px;
+    }
+
+    .toc-title {
+      font-size: 0.84rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--cyan);
+      margin-bottom: 10px;
+    }
+
+    .toc-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 16px;
+      list-style: none;
+    }
+
+    .toc-list a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: color 0.15s ease;
+    }
+
+    .toc-list a:hover,
+    .toc-list a:focus-visible {
+      color: var(--gold);
+      text-decoration: underline;
+    }
+
+    .policy-body {
+      background: rgba(15, 25, 54, 0.92);
+      border: 1px solid var(--border-subtle);
+      border-radius: 22px;
+      padding: 28px;
+      box-shadow: 0 14px 36px rgba(0, 0, 0, 0.3);
+    }
+
+    section {
+      padding: 20px 0;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    section:first-of-type {
+      padding-top: 4px;
+    }
+
+    section:last-of-type {
+      border-bottom: none;
+      padding-bottom: 4px;
+    }
+
+    h2 {
+      font-size: 1.18rem;
+      font-weight: 700;
+      color: var(--gold-soft);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+    }
+
+    .sec-num {
+      font-size: 0.8rem;
+      font-weight: 800;
+      color: var(--cyan);
+      background: rgba(56, 189, 248, 0.12);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      border-radius: 6px;
+      padding: 1px 7px;
+      flex-shrink: 0;
+    }
+
+    p {
+      color: var(--text-secondary);
+      margin-bottom: 12px;
+      font-size: 0.96rem;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      margin: 8px 0 12px 20px;
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    li strong {
+      color: var(--text-primary);
+    }
+
+    a {
+      color: var(--cyan);
+      word-break: break-word;
+    }
+
+    a:hover {
+      color: var(--gold);
+    }
+
+    .callout {
+      background: rgba(74, 222, 128, 0.08);
+      border-left: 3px solid var(--green);
+      border-radius: 8px;
+      padding: 12px 14px;
+      margin-top: 10px;
+      font-size: 0.92rem;
+      color: var(--text-secondary);
+    }
+
+    .contact-card {
+      background: rgba(7, 13, 31, 0.65);
+      border: 1px solid var(--border-accent);
+      border-radius: 14px;
+      padding: 16px 18px;
+      margin-top: 10px;
+    }
+
+    .contact-card p {
+      margin-bottom: 6px;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-top: 26px;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 16px 12px 40px;
+      }
+      .hero,
+      .policy-body {
+        padding: 20px 18px;
+        border-radius: 18px;
+      }
+    }
+
+    @media print {
+      body {
+        background: #ffffff;
+        color: #111827;
+        padding: 0;
+      }
+      .hero,
+      .toc,
+      .policy-body,
+      .highlight-card,
+      .contact-card {
+        background: #ffffff;
+        border-color: #d1d5db;
+        box-shadow: none;
+        color: #111827;
+      }
+      h1, h2, .highlight-title, .toc-title, .sec-num, a {
+        color: #111827;
+      }
+      p, li, .hero-intro, .hero-meta, .highlight-desc, footer {
+        color: #374151;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <div class="badge">Official Privacy Policy</div>
+      <h1>Block Blast Cube — Privacy Policy</h1>
+      <div class="hero-meta">
+        <span><strong>Developer:</strong> VALGARDO</span>
+        <span><strong>Effective Date:</strong> November 19, 2026</span>
+        <span><strong>Platform:</strong> Android</span>
+      </div>
+      <p class="hero-intro">
+        VALGARDO (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;) built the <strong>Block Blast Cube</strong> mobile puzzle game as a free, ad-supported application. This Privacy Policy explains how information is handled when you install and play Block Blast Cube.
+      </p>
+
+      <div class="highlights" aria-label="Privacy Highlights">
+        <div class="highlight-card">
+          <div class="highlight-title">No Account Required</div>
+          <div class="highlight-desc">Play immediately without registering a name, email, phone number, or password.</div>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-title">100% On-Device Saves</div>
+          <div class="highlight-desc">High scores, levels, medals, themes, and settings remain stored locally on your device.</div>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-title">Google AdMob Ads</div>
+          <div class="highlight-desc">Supports bottom banner ads and optional rewarded ads governed by Google policies.</div>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-title">Zero Sensitive Access</div>
+          <div class="highlight-desc">Never requests camera, microphone, GPS location, contacts, or photo gallery permissions.</div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="toc" aria-label="Table of Contents">
+      <div class="toc-title">Quick Navigation</div>
+      <ul class="toc-list">
+        <li><a href="#info-collected">1. Information We Collect</a></li>
+        <li><a href="#local-storage">2. Local On-Device Storage</a></li>
+        <li><a href="#advertising">3. Advertising (Google AdMob)</a></li>
+        <li><a href="#permissions">4. Device Permissions</a></li>
+        <li><a href="#virtual-items">5. Virtual Currency &amp; Items</a></li>
+        <li><a href="#children">6. Children&rsquo;s Privacy</a></li>
+        <li><a href="#security">7. Data Security</a></li>
+        <li><a href="#user-choices">8. Your Choices &amp; Deletion</a></li>
+        <li><a href="#changes">9. Policy Changes</a></li>
+        <li><a href="#contact">10. Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <main class="policy-body">
+      <section id="info-collected">
+        <h2><span class="sec-num">01</span>Information We Collect</h2>
+        <p>
+          We do not require you to create an account, sign in, or submit personally identifiable information such as your name, email address, phone number, or mailing address to play Block Blast Cube.
+        </p>
+        <p>
+          We do not operate our own user-tracking servers, and we do not directly collect, sell, rent, or trade your personal information to any third party.
+        </p>
+      </section>
+
+      <section id="local-storage">
+        <h2><span class="sec-num">02</span>Local On-Device Storage</h2>
+        <p>
+          All gameplay progress is stored strictly on your device using Android&rsquo;s local storage so that you can enjoy Block Blast Cube smoothly even offline. Locally saved data includes:
+        </p>
+        <ul>
+          <li>Normal Mode and Pro Mode scores, high scores, and unlocked levels</li>
+          <li>Unlocked medal milestones and in-game skill percentage</li>
+          <li>Virtual in-game cash balance, power-ups, and unlocked block skins/themes</li>
+          <li>Sound effects, music, and haptic vibration preferences</li>
+        </ul>
+      </section>
+
+      <section id="advertising">
+        <h2><span class="sec-num">03</span>Advertising &amp; Third-Party Services (Google AdMob)</h2>
+        <p>
+          Block Blast Cube integrates <strong>Google AdMob</strong> to display banner advertisements and optional rewarded video advertisements (for example, earning bonus in-game virtual cash, level reward multipliers, or board revives).
+        </p>
+        <p>
+          When ads are requested or displayed, Google AdMob and its advertising partners may automatically collect and process certain device and interaction information, including:
+        </p>
+        <ul>
+          <li><strong>Device Identifiers:</strong> Such as the Google Advertising ID (AAID)</li>
+          <li><strong>Network &amp; Approximate Location:</strong> IP address and coarse location derived from IP</li>
+          <li><strong>App Activity &amp; Diagnostics:</strong> Ad impressions, clicks, device model, OS version, and crash or performance metrics used for ad delivery, analytics, and fraud prevention</li>
+        </ul>
+        <p>
+          This data is collected and handled directly by Google in accordance with Google&rsquo;s Privacy Policy and Advertising Policies:
+        </p>
+        <ul>
+          <li>Google Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></li>
+          <li>How Google Uses Data from Partner Apps: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">https://policies.google.com/technologies/partner-sites</a></li>
+        </ul>
+        <div class="callout">
+          <strong>Manage Ad Preferences:</strong> You can reset or delete your Advertising ID and opt out of personalized ads anytime on your Android device via <em>Settings &rarr; Google &rarr; Ads</em>.
+        </div>
+      </section>
+
+      <section id="permissions">
+        <h2><span class="sec-num">04</span>Device Permissions</h2>
+        <p>Block Blast Cube requests only the minimal permissions required for core gameplay and ad delivery:</p>
+        <ul>
+          <li><strong>INTERNET &amp; ACCESS_NETWORK_STATE:</strong> Used strictly to fetch and display advertisements via Google AdMob and verify network availability.</li>
+          <li><strong>VIBRATE:</strong> Used strictly to deliver optional tactile haptic feedback during gameplay (can be turned off anytime in the game&rsquo;s Settings menu).</li>
+        </ul>
+        <p>
+          Block Blast Cube does <strong>not</strong> request or access your camera, microphone, precise GPS location, contacts, SMS, call logs, calendar, or photo/media gallery.
+        </p>
+      </section>
+
+      <section id="virtual-items">
+        <h2><span class="sec-num">05</span>Virtual Currency &amp; In-Game Rewards</h2>
+        <p>
+          Any virtual cash, reward multipliers, power-ups (such as reverses or revives), skins, themes, or medals earned within Block Blast Cube exist solely for entertainment and in-game progression. They hold zero real-world monetary value and cannot be exchanged, redeemed, or transferred for real currency.
+        </p>
+      </section>
+
+      <section id="children">
+        <h2><span class="sec-num">06</span>Children&rsquo;s Privacy</h2>
+        <p>
+          Block Blast Cube is a family-safe puzzle game intended for general audiences. We do not knowingly collect personally identifiable information from children under the age of 13 (or the applicable age of digital consent in your country or region). If you are a parent or guardian and believe that your child has provided personal information to us, please contact us immediately so we can take appropriate action.
+        </p>
+      </section>
+
+      <section id="security">
+        <h2><span class="sec-num">07</span>Data Security</h2>
+        <p>
+          We take your privacy seriously. By storing gameplay progress locally on your device without requiring personal accounts, we minimize data exposure. Any data exchanged by the Google AdMob SDK is encrypted in transit using industry-standard HTTPS/TLS security protocols.
+        </p>
+      </section>
+
+      <section id="user-choices">
+        <h2><span class="sec-num">08</span>Your Choices &amp; Data Deletion</h2>
+        <p>
+          Because we do not store your gameplay profile or personal data on external developer servers, you remain in full control of your local game data at all times:
+        </p>
+        <ul>
+          <li><strong>Delete Local Data:</strong> Clear app storage via Android <em>Settings &rarr; Apps &rarr; Block Blast Cube &rarr; Storage &rarr; Clear storage</em>, or uninstall the app to permanently remove all saved scores, levels, and preferences.</li>
+          <li><strong>Ad Controls:</strong> Opt out of personalized advertising or reset your Advertising ID in your Android device&rsquo;s Google Ads settings.</li>
+        </ul>
+      </section>
+
+      <section id="changes">
+        <h2><span class="sec-num">09</span>Changes to This Privacy Policy</h2>
+        <p>
+          We may update this Privacy Policy periodically to reflect improvements to Block Blast Cube or changes in legal or platform requirements. Any revisions will be posted directly on this page with an updated Effective Date at the top. Continued use of the game after updates signifies your acknowledgment of the revised policy.
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2><span class="sec-num">10</span>Contact Us</h2>
+        <p>
+          If you have any questions, concerns, or requests regarding this Privacy Policy or Block Blast Cube, please reach out to us:
+        </p>
+        <div class="contact-card">
+          <p><strong>App Name:</strong> Block Blast Cube</p>
+          <p><strong>Developer:</strong> VALGARDO</p>
+          <p><strong>Email:</strong> <a href="mailto:rono22110@gmail.com">rono22110@gmail.com</a></p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      &copy; 2026 VALGARDO &bull; Block Blast Cube. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
